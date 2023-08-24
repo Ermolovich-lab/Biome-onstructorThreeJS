@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Three.js Example with Hexagons and Light</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="parent">
+      <nav class="panel">
+        <ul>
+          <li>
+            <input type="button" style="background-image: url(Images/lDX3MG60WhQ.jpg);" class="biom" value="Plains">
+            <ul>
+              <li>
+                <input type="button" id="Plains" style="background-image: url(Images/uxHBOvun2NI.jpg);" class="build" value="Kirby">
+              </li>
+              <li>
+                <input type="button" id="Plains" style="background-image: url(Images/mYs0feepIQM.jpg);" class="build" value="Ferris Wheel">
+              </li>
+              <li>
+                <input type="button" id="Plains" style="background-image: url(Images/gc1vUfERH4s.jpg);" class="build" value="House">
+              </li>
+            </ul>
+          </li>
+          <li>
+            <input type="button" style="background-image: url(Images/ffm01idsIs4.jpg);" class="biom" value="Tundra">
+            <ul>
+              <li>
+                <input type="button" id="Tundra" style="background-image: url(Images/YXzjcFx6Moo.jpg);" class="build" value="Hut in the snow">
+              </li>
+              <li>
+                <input type="button" id="Tundra" style="background-image: url(Images/k8xkTNwHMHY.jpg);" class="build" value="Penguin">
+              </li>
+              <li>
+                <input type="button" id="Tundra" style="background-image: url(Images/Iid7GK-4QW4.jpg);" class="build" value="Rabbit">
+              </li>
+            </ul>
+          </li>
+          <li>
+            <input type="button" style="background-image: url(Images/kxqmNIs3BgE.jpg  );" class="biom" value="Desert">
+            <ul>
+              <li>
+                <input type="button" id="Desert" style="background-image: url(Images/zfCKxRpgdis.jpg);" class="build" value="Solar Panel">
+              </li>
+              <li>
+                <input type="button" id="Desert" style="background-image: url(Images/4g4AT89O40Q.jpg);" class="build" value="Stadium">
+              </li>
+              <li>
+                <input type="button" id="Desert" style="background-image: url(Images/9aQ295xewvI.jpg);" class="build" value="Kopatuch">
+              </li>
+            </ul>
+          </li>
+          <li>
+            <input type="button" style="background-image: url(Images/Oa3uXZjX85Y.jpg);" class="biom" value="River">
+            <ul>
+              <li>
+                <input type="button" id="River" style="background-image: url(Images/FUIn7XRgqDc.jpg);" class="build" value="LittleWhale">
+              </li>
+              <li>
+                <input type="button" id="River" style="background-image: url(Images/FuLVCdgog0s.jpg);" class="build" value="SpongeBob">
+              </li>
+              <li>
+                <input type="button" id="River" style="background-image: url(Images/eYllHYHvOYU.jpg);" class="build" value="Boat">
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+        "three": "./node_modules/three/src/THREE.js",
+        "GLTFLoader": "./node_modules/three/examples/jsm/loaders/GLTFLoader.js"
+        }
+      }
+    </script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
